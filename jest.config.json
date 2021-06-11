@@ -1,0 +1,12 @@
+{
+  "testEnvironment": "node",
+  "testMatch": ["./**/*.test.ts"],
+  "verbose": true,
+  "transform": {
+    "^.+\\.(js|jsx|ts|tsx)$": "ts-jest"
+  },
+  "moduleDirectories": ["node_modules", "src"],
+  "moduleFileExtensions": ["ts", "js"],
+  "testPathIgnorePatterns": ["<rootDir>/node_modules/"],
+  "collectCoverage": false
+}

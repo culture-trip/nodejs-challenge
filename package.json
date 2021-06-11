@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-challenge",
+  "version": "1.0.0",
+  "description": "Challenge for NodeJS developers at Culture Trip",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc src/index.ts",
+    "test": "jest --coverage false ./src --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/culture-trip/nodejs-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/culture-trip/nodejs-challenge/issues"
+  },
+  "homepage": "https://github.com/culture-trip/nodejs-challenge#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.2",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.9"
+  }
+}

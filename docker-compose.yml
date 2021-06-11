@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  mongodb:
+    image: mongo:4.0
+    container_name: culturetripmongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ctUser
+      MONGO_INITDB_ROOT_PASSWORD: ctPass
+      MONGO_INITDB_DATABASE: ctMongoDb
