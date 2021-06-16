@@ -12,8 +12,7 @@ export type PlaceToStay = {
   title: string;
   description: string;
   address: string;
+  country?: string;
   starRating?: number;
   category: PlaceToStayCategory;
 };
-
-export type S3PlaceToStay = Omit<PlaceToStay, "slug">;
