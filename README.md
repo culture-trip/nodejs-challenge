@@ -49,7 +49,7 @@ You don’t need to worry about setting a cron job that would trigger this endpo
 
 The items to insert will be fetched from this [S3 file](https://node-js-challenge-artifacts.s3.amazonaws.com/places-to-stay.json), which is publicly available. 
 
-The data retrieved from this JSON file should be transformed to the [`PlaceToStay`](./src/types/place-to-stay-schema.ts)
+The data retrieved from this JSON file **should be transformed** to the [`PlaceToStay`](./src/types/place-to-stay-schema.ts)
 , and a slug needs to be created. It should be created based on the hotel name and unique identifier (up to define the logic).
 
 Here is a diagram that should help understand the solution.

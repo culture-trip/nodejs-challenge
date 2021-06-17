@@ -1,11 +1,3 @@
-export enum PlaceToStayCategory {
-  HOTEL = "Hotel",
-  VILLA = "Villa",
-  RESORT = "Resort",
-  BED_AND_BREAKFAST = "BedAndBreakfast",
-  GUESTHOUSE = "Guesthouse",
-}
-
 export type PlaceToStay = {
   id: string;
   slug: string;
@@ -14,5 +6,5 @@ export type PlaceToStay = {
   address: string;
   country?: string;
   starRating?: number;
-  category: PlaceToStayCategory;
+  category: string;
 };
